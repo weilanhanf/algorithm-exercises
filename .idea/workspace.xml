@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de93fd01-ef9e-474c-b348-a5ac1c25376a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/algorithm-exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/binary_tree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/binary_tree/binary_tree_creat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/binary_tree/binary_tree_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/double_bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/easy_select_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/insert_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/sort/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/面试题3_二维数组中的查找/二维数组中查找元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/面试题4_替换空格/替换空格.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/面试题5_链表逆序输出/从尾到头打印链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/面试题7_栈与队列/用两个栈表示队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/面试题9_斐波那契数列/斐波那契数列.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WCAKQUoz0CVoK8iZDoMlnhfb2F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de93fd01-ef9e-474c-b348-a5ac1c25376a" name="Default Changelist" comment="" />
+      <created>1578643138332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578643138332</updated>
+      <workItem from="1578643140473" duration="606000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除原始">
+      <created>1578643271357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578643271357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除原始" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除原始" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="7" key="CommitChangelistDialog2" timestamp="1578643269899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578643269899" />
+  </component>
+</project>

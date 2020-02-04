@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-__date__ = '2020/1/1 16:20'
-
-
-RES = []  # 全局变量用作存储逆置后的结果
+__date__ = '2020/2/4 20:53'  # 未完
 
 
 class SingleNode:
@@ -56,32 +53,18 @@ class SingleLinkList:
             cur.next = node
 
 
-def print_from_tail_linklist(linklist=None):
-    """ 非递归从尾到头打印链表 """
-    if linklist == None:
-        return None
+def reverse_linklist(head=None):
+    if head is None or head.next is None:
+        return
     else:
-        stack = []  # 用列表模拟栈
-        cur = linklist.head
-        while cur != None:
-            stack.append(cur.item)
-            cur = cur.next
-
-        while len(stack) > 0:
-            RES.append(stack.pop(-1))
-        return RES
-
-
-def print_from_tail_linklist_recur(node=None, res=RES):
-    """ 递归从尾到头打印链表 """
-    if node:
-        print_from_tail_linklist_recur(node.next, RES)
-        RES.append(node.item)
-    return RES
-
-
-
-
+        pre, cur = head, head.next
+        pre.next = None
+        while cur:
+            r = cur.next
+            cur.next = pre.next
+            pre.next = cur
+            cur = r
+        return head
 
 if __name__ == "__main__":
     linklist = SingleLinkList()
@@ -92,9 +75,6 @@ if __name__ == "__main__":
     linklist.append(4)
     linklist.travel()
 
-    # 1,非递归
-    # print(print_from_tail_linklist(linklist))
-
-    # 2,递归
-    node = linklist.head
-    print(print_from_tail_linklist_recur(node, RES))
+    head = linklist.head
+    reverse_linklist(head)
+    linklist.travel()

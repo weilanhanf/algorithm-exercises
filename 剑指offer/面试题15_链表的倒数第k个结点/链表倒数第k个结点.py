@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-__date__ = '2020/1/1 16:20'
-
-
-RES = []  # 全局变量用作存储逆置后的结果
+__date__ = '2020/2/4 22:54'
 
 
 class SingleNode:
@@ -56,31 +53,19 @@ class SingleLinkList:
             cur.next = node
 
 
-def print_from_tail_linklist(linklist=None):
-    """ 非递归从尾到头打印链表 """
-    if linklist == None:
+def find_k_to_tail(head=None, k=0):
+    if head is None or k == 0:
         return None
     else:
-        stack = []  # 用列表模拟栈
-        cur = linklist.head
-        while cur != None:
-            stack.append(cur.item)
-            cur = cur.next
-
-        while len(stack) > 0:
-            RES.append(stack.pop(-1))
-        return RES
-
-
-def print_from_tail_linklist_recur(node=None, res=RES):
-    """ 递归从尾到头打印链表 """
-    if node:
-        print_from_tail_linklist_recur(node.next, RES)
-        RES.append(node.item)
-    return RES
-
-
-
+        count = 0
+        p = r = head
+        while r:
+            if count < k:
+                r = r.next
+                count += 1
+            else:
+                r, p = r.next, p.next
+        return p if k == count else None
 
 
 if __name__ == "__main__":
@@ -90,11 +75,15 @@ if __name__ == "__main__":
     linklist.append(2)
     linklist.append(3)
     linklist.append(4)
+    linklist.append(5)
+    linklist.append(6)
+    linklist.append(7)
+    linklist.append(8)
+    linklist.append(9)
     linklist.travel()
 
-    # 1,非递归
-    # print(print_from_tail_linklist(linklist))
-
-    # 2,递归
-    node = linklist.head
-    print(print_from_tail_linklist_recur(node, RES))
+    found_node = find_k_to_tail(linklist.head, 1)
+    try:
+        print(found_node.item)
+    except AttributeError:
+        print("查询的节点错误")

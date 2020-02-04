@@ -5,7 +5,7 @@ __date__ = '2020/1/8 15:45'
 二叉树相关操作
 '''
 
-from binary_tree.binary_tree_creat import BTree, BTNode
+from .binary_tree_creat import BTree, BTNode
 
 
 def recur_height(root):

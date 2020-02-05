@@ -9,6 +9,9 @@ class SingleNode:
         self.item = item  # 结点存放数据
         self.next = None  # 后继结点
 
+    def __repr__(self):
+        return str(self.item)
+
 
 class SingleLinkList:
     """ 单链表 """
@@ -53,18 +56,18 @@ class SingleLinkList:
             cur.next = node
 
 
-def reverse_linklist(head=None):
-    if head is None or head.next is None:
-        return
-    else:
-        pre, cur = head, head.next
-        pre.next = None
-        while cur:
-            r = cur.next
-            cur.next = pre.next
-            pre.next = cur
-            cur = r
-        return head
+
+def reverse_linklist(linklist=None):
+    pre = linklist.head
+
+    head = None
+    while pre:
+        cur = pre.next
+        pre.next = head
+        head = pre
+        pre = cur
+
+    linklist.head = head
 
 if __name__ == "__main__":
     linklist = SingleLinkList()
@@ -75,6 +78,5 @@ if __name__ == "__main__":
     linklist.append(4)
     linklist.travel()
 
-    head = linklist.head
-    reverse_linklist(head)
+    reverse_linklist(linklist)
     linklist.travel()

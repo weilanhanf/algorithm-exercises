@@ -88,18 +88,18 @@ if __name__ == "__main__":
     a_linklist = SingleLinkList()
     b_linklist = SingleLinkList()
 
-    print("a_linklist: ", end="")
     a_linklist.append(1)
     a_linklist.append(3)
     a_linklist.append(7)
     a_linklist.append(10)
+    print("a_linklist: ", end="")
     a_linklist.travel()
 
-    print("b_linklist: ", end="")
     b_linklist.append(1)
     b_linklist.append(4)
     b_linklist.append(8)
     b_linklist.append(20)
+    print("b_linklist: ", end="")
     b_linklist.travel()
 
     merged_linklist = merge_linklist(a_linklist, b_linklist)

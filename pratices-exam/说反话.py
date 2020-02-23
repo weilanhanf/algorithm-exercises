@@ -5,3 +5,8 @@ __date__ = '2020/2/22 18:48'
 s = input().split()
 s.reverse()
 print(' '.join(s))
+
+
+
+ord('a')
+chr(97)
